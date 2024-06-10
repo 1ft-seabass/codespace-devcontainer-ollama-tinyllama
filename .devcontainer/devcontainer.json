@@ -1,0 +1,9 @@
+{
+    "name":"codespace-devcontainer-node-red-simple",
+    "postCreateCommand":{
+        "install":"/bin/sh ./.devcontainer/postCreateCommand.sh"
+    },
+    "postAttachCommand":{
+        "server": "ollama serve"
+    }
+}
