@@ -3,8 +3,6 @@
     "postCreateCommand":{
         "install":"/bin/sh ./.devcontainer/postCreateCommand.sh"
     },
-    "postAttachCommand":{
-        "server": "ollama serve",
-        "tinyllama": "ollama run tinyllama"
-    }
+    "postStartCommand":"ollama serve",
+    "postAttachCommand":"ollama run tinyllama"
 }
