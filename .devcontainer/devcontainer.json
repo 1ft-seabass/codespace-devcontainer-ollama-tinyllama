@@ -1,5 +1,5 @@
 {
-    "name":"codespace-devcontainer-node-red-simple",
+    "name":"codespace-devcontainer-ollama-tinyllama",
     "postCreateCommand":{
         "install":"/bin/sh ./.devcontainer/postCreateCommand.sh"
     },
